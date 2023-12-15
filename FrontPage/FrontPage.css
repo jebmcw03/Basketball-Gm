@@ -1,0 +1,38 @@
+/* CSS for title */
+.title-box {
+    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    background-color: aquamarine;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative; /* Relative positioning */
+    top: 0; /* Reset the top position */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+/* CSS for button container */
+.button-container {
+    text-align: center;
+}
+
+/* CSS for buttons */
+.button {
+    display: block; /* Display buttons as block-level elements */
+    margin: 10px auto; /* Center buttons horizontally and add spacing */
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: burlywood;
+}
+
+.container {
+    text-align: center; /* Center the entire container */
+}
